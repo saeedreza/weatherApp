@@ -1,0 +1,43 @@
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 2em;
+    text-shadow: 0 0 10px #000;
+    color: #fff;
+    background-color: #eee;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section {
+    min-height: 100%;
+    padding: 5%;
+}
+
+h1 {
+    font-size: 2em;
+    padding: 0 0.3em;
+    line-height: 1em;
+}
+
+p {
+    padding: 0 1em;
+}
+
+a {
+    color: #fff;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    font-size: 0.8em;
+}
+
+#temperature{
+  text-decoration: none;
+  border-bottom: 0.05em dotted white;
+}
